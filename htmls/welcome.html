@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title></title>
+</head>
+
+<body>
+<center><h3>This is a application to show the realtime use of node js using socket.io</h3></center>
+<br /><br /><br /><p>
+    There are 3 users who can login to the system....
+    </p>
+    <b>Caution:This is javascript level authentication</b>
+<br /><br /><br />
+    <h3>User1</h3>
+<p>Username:user1</p><br />
+<h3>User2</h3>
+<p>Username:user2</p><br />
+<h3>User3</h3>
+<p>Username:user3</p><br />
+<p>------------------------------------------</p>
+<h3>Password of all the users is "passwd"</h3>
+
+
+
+<center><h3>Login Form</h3>
+<br /><br /><br />
+    <p ng-show="showmsg">The logged information is not right</p><br />
+Username:<input type="text" ng-model="username"/><br /><br />
+Password:<input type="password" ng-model="password"/><br /><br /><br />
+<input type="button" value="Submit" ng-click="authenticateUser(username,password)" /> </center>
+</body>
+</html>

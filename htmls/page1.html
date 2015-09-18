@@ -1,0 +1,23 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title></title>
+</head>
+<body>
+
+
+<h1 ng-init="initPage()">This is the page belonging to {{username}}</h1><br />
+<hr />
+<br />
+<input type="checkbox" ng-click="addToList('user1')"> User1<br/>
+<input type="checkbox" ng-click="addToList('user2')"> User2<br/>
+<input type="checkbox" ng-click="addToList('user3')"> User3<br/>
+Enter the message: <textarea ng-model="message"></textarea>
+<br />
+<br />
+<input type="button" id="formbtn" ng-click="sendMessage(message)" value="Send message" />
+<h2>Notifications are below</h2>
+</body>
+</html>
